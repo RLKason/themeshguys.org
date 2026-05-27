@@ -6,6 +6,7 @@
   <title>The Mesh Guys</title>
 
   <style>
+
     * {
       margin: 0;
       padding: 0;
@@ -18,13 +19,14 @@
 
     body {
       font-family: Arial, sans-serif;
-      background: #f2f2f2;
-      color: #111;
+      background: #0f0f0f;
+      color: #f5f5f5;
     }
 
     /* HERO SECTION */
+
     .hero {
-      background: linear-gradient(135deg, #d60000, #ff0000);
+      background: linear-gradient(135deg, #8b0000, #d40000);
       color: white;
       text-align: center;
       padding: 80px 20px 100px;
@@ -41,9 +43,11 @@
       margin: auto;
       font-size: 22px;
       line-height: 1.8;
+      color: #eeeeee;
     }
 
     /* NAVIGATION */
+
     nav {
       margin-top: 55px;
     }
@@ -62,47 +66,49 @@
     }
 
     /* CONTENT */
+
     .container {
       width: 85%;
       margin: 40px auto;
     }
 
     .card {
-      background: white;
+      background: #1a1a1a;
       border-radius: 18px;
       padding: 35px;
       margin-bottom: 35px;
-      box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+      box-shadow: 0 4px 18px rgba(0,0,0,0.5);
+      border: 1px solid #2a2a2a;
     }
 
     .card h2 {
       font-size: 42px;
       margin-bottom: 15px;
-      color: #111827;
+      color: #ffffff;
     }
 
     .line {
       width: 100%;
       height: 4px;
-      background: #e00000;
+      background: #ff1a1a;
       margin-bottom: 25px;
       border-radius: 10px;
     }
 
     .card p {
-      font-size: 24px;
+      font-size: 22px;
       line-height: 1.8;
-      color: #222;
+      color: #d6d6d6;
     }
 
     .links {
       margin-top: 25px;
-      font-size: 24px;
+      font-size: 22px;
       line-height: 2;
     }
 
     .links a {
-      color: #d60000;
+      color: #ff4d4d;
       text-decoration: none;
       font-weight: bold;
     }
@@ -112,6 +118,7 @@
     }
 
     /* MOBILE */
+
     @media (max-width: 900px) {
 
       .hero h1 {
@@ -128,7 +135,7 @@
       }
 
       .card h2 {
-        font-size: 32px;
+        font-size: 30px;
       }
 
       .card p,
@@ -139,13 +146,16 @@
       .container {
         width: 92%;
       }
+
     }
 
   </style>
 </head>
+
 <body>
 
   <!-- HERO -->
+
   <section class="hero">
 
     <h1>Welcome to The Mesh Guys</h1>
@@ -168,9 +178,11 @@
   </section>
 
   <!-- CONTENT -->
+
   <div class="container">
 
     <!-- ABOUT -->
+
     <section class="card" id="about">
 
       <h2>About The Mesh Guys</h2>
@@ -186,23 +198,74 @@
 
     </section>
 
-    <!-- CHICAGOLAND MESH -->
+    <!-- USA -->
+
     <section class="card" id="mesh">
-
-      <h2>Chicagoland Mesh - Owned by ddthekidd</h2>
-
+      <h2>BayMesh - California</h2>
       <div class="line"></div>
+      <div class="links">
+        <strong>Website:</strong>
+        <a href="https://bayme.sh/" target="_blank">https://bayme.sh/</a>
+      </div>
+    </section>
 
-      <p>
-        Chicagoland Mesh is a community-driven Meshtastic network focused
-        on building long-range, off-grid communication across the Chicago area.
-        The project connects local radio and mesh enthusiasts who use LoRa
-        devices to create a decentralized messaging network that works without
-        cell service or internet. Chicagoland Mesh helps users learn about
-        Meshtastic, discover node coverage, join local discussions, and expand
-        the mesh throughout Illinois and surrounding regions.
-      </p>
+    <section class="card">
+      <h2>SoCal Mesh - California</h2>
+      <div class="line"></div>
+      <div class="links">
+        <strong>Website:</strong>
+        <a href="https://socalmesh.org/" target="_blank">https://socalmesh.org/</a>
+      </div>
+    </section>
 
+    <section class="card">
+      <h2>Colorado Mesh - Colorado</h2>
+      <div class="line"></div>
+      <div class="links">
+        <strong>Website:</strong>
+        <a href="https://coloradomesh.org/" target="_blank">https://coloradomesh.org/</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>CT Mesh - Connecticut</h2>
+      <div class="line"></div>
+      <div class="links">
+        <strong>Website:</strong>
+        <a href="https://ctmesh.org" target="_blank">https://ctmesh.org</a>
+
+        <br>
+
+        <strong>Discord:</strong>
+        <a href="https://discord.gg/m4F328as3K" target="_blank">
+          https://discord.gg/m4F328as3K
+        </a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Florida Mesh - Florida</h2>
+      <div class="line"></div>
+      <div class="links">
+        <strong>Website:</strong>
+        <a href="https://areyoumeshingwith.us/" target="_blank">
+          https://areyoumeshingwith.us/
+        </a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Mountain Mesh - Georgia</h2>
+      <div class="line"></div>
+      <div class="links">
+        <strong>Website:</strong>
+        <a href="https://mtnme.sh" target="_blank">https://mtnme.sh</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Chicagoland Mesh - Illinois</h2>
+      <div class="line"></div>
       <div class="links">
         <strong>Website:</strong>
         <a href="https://chicagolandmesh.org/" target="_blank">
@@ -216,42 +279,72 @@
           https://chimesh.org/discord
         </a>
       </div>
-
     </section>
 
-    <!-- MESHCONSIN CARD -->
     <section class="card">
-
-      <h2>Meshconsin - Owned by Carl Rosenthal</h2>
-
+      <h2>Hoosier Mesh - Indiana</h2>
       <div class="line"></div>
-
-      <p>
-        Meshconsin is a Wisconsin-based Meshtastic community focused on building
-        a decentralized, off-grid communication network using LoRa radios.
-        The network allows users to send encrypted messages without relying on
-        cell towers, Wi-Fi, or the internet. Meshconsin brings together radio
-        enthusiasts, tech hobbyists, and emergency preparedness communities
-        to expand mesh coverage across Wisconsin while promoting open-source
-        communication and resilient local networking.
-      </p>
-
       <div class="links">
-
         <strong>Website:</strong>
-        <a href="https://meshconsin.org/" target="_blank">
-          https://meshconsin.org/
+        <a href="https://hoosiermesh.org" target="_blank">
+          https://hoosiermesh.org
         </a>
-
-        <br>
-
-        <strong>Discord:</strong>
-        <a href="https://discord.com/invite/f3cU7kPbHg" target="_blank">
-          https://discord.com/invite/f3cU7kPbHg
-        </a>
-
       </div>
+    </section>
 
+    <section class="card">
+      <h2>Iowa Mesh - Iowa</h2>
+      <div class="line"></div>
+      <div class="links">
+        <strong>Website:</strong>
+        <a href="https://iowamesh.org" target="_blank">
+          https://iowamesh.org
+        </a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>MSP Mesh - Minnesota</h2>
+      <div class="line"></div>
+      <div class="links">
+        <strong>Website:</strong>
+        <a href="https://mspmesh.org/" target="_blank">
+          https://mspmesh.org/
+        </a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>MeshSTL - Missouri</h2>
+      <div class="line"></div>
+      <div class="links">
+        <strong>Discord:</strong>
+        <a href="https://discord.gg/QYxUdKZpBd" target="_blank">
+          https://discord.gg/QYxUdKZpBd
+        </a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>CMRG Mesh - Missouri</h2>
+      <div class="line"></div>
+      <div class="links">
+        <strong>Website:</strong>
+        <a href="https://www.mo-mesh.com" target="_blank">
+          https://www.mo-mesh.com
+        </a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>LZMesh - Missouri</h2>
+      <div class="line"></div>
+      <div class="links">
+        <strong>Website:</strong>
+        <a href="https://www.lzmesh.com" target="_blank">
+          https://www.lzmesh.com
+        </a>
+      </div>
     </section>
 
   </div>
